@@ -15,7 +15,7 @@ This DSC achieves the following:
 
 My prototype is a removable version installed on a Zhumell Z114 tabletop:
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/dobDSC-front.jpg "Finished look")
-You can see I'm using a woodworking clamp to affix the encoder in the position required to have proper tension in the timing belt. This way, the DSC is very easy to remove from the scope.
+You can see I'm using a woodworking clamp to affix the encoder in the position required to have proper tension in the timing belt. This way, the DSC is very easy to remove from the scope without leaving any permanent marks.
 
 ## Parts list:
 
