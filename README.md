@@ -14,7 +14,9 @@ This DSC achieves the following:
 * Instead of a wired handheld control, it communicates with Android/iOS apps like Skysafary 5 (plus or pro), DSC-Browser and others via WiFi.
 
 My prototype is a removable version installed on a Zhumell Z114 tabletop:
+
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/dobDSC-front.jpg "Finished look")
+
 You can see I'm using a woodworking clamp to affix the encoder in the position required to have proper tension in the timing belt. This way, the DSC is very easy to remove from the scope without leaving any permanent marks.
 
 ## Parts list:
@@ -26,9 +28,9 @@ You can see I'm using a woodworking clamp to affix the encoder in the position r
 * $0.82 20 teeth Gt2 timing pulley 6.35mm shaft  https://www.aliexpress.com/item/20tooth-Bore-6-35mm-GT2-Synchronous-Pulley-Aluminium-Timing-Gear-For-Width-6mm-Belt-3D-Printers/32808150854.html
 * 1.05 GT2 timing  belt (size depends on your telescope size), I used 400mm for the Z114 [link]https://www.aliexpress.com/item/Free-Shipping-3D-printer-belt-closed-loop-rubber-GT2-timing-belt-400-2GT-6-teeth-100/32477498985.html
 
-Subtotal parts cost: $37.1
+Subtotal parts cost: *$37.1*
 
-Add some solder, cables, a 5V power source, and screws for attaching the encoder to the base whichever way you want. The cost still, is low compared to the cost of high resolution optical encoders and a NexusDSC.
+Add some solder, cables, a 5V power source, a couple resistors, and screws for attaching the encoder to the base whichever way you want. The cost is low compared to the cost of high resolution optical encoders and a NexusDSC.
 
 The key to this new version of my DSC is the use of an inexpensive optical encoder for azimuth. The $17.99 encoder I used has 600ppr, which using quadrature produces 2400 counts per revolution, which would not be engough for a DSC, but using GT2 timing pulleys of 85 and 20 teethm (for a ratio of 1 : 4.25) we can now get 10200 counts per revolution on azimuth, for just a fraction of the price of a 10k encoder. This is how the GT2 pulleys and belt look in the base of my Z114:
 
@@ -42,10 +44,12 @@ The large box is the power bank, the smaller box is housing the main circuit wit
 
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/dobDSC-back.jpg "Back")
 
-And the circuit, is very very simple:
+## Circuit
+
+The circuit, is very very simple:
 
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "Circuit")
 
 I've tried it successfully with my Z114 telescope (from now on, my Z114i). The accuracy is on par to that of my Skywatcher goto mount. 
 
-The source code released here is open source, you need the arduino IDE to compile and deploy it to your microcontroller.
+To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller.
