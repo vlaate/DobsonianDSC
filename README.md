@@ -58,4 +58,6 @@ I've used this DSC successfully with my Z114 telescope (from now on, my *Z114i*)
 
 To use it you just connect your tablet to the access point created by the device, configure SkySafari 5 Plus (or Deep Sky Browser, or other program) to connecto the IP address of the device (by default: 1.2.3.4 port 4030), select "Basic Encoders" for Telescope type, and voilà! SkySafari is now connected to your telescope.
 
-To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller. Enjoy
+To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller.
+
+You can ask questions or provide feedback [here](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/).
