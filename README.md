@@ -21,12 +21,12 @@ You can see I'm using a woodworking clamp to affix the encoder in the position r
 
 ## Parts list:
 
-* $3.05 NodeMCU ESP8266 development board (version 12E)[link](https://www.aliexpress.com/item/1pcs-lot-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-esp-12e-for-arduino/32775934156.html)
+* $3.05 NodeMCU ESP8266 development board (version 12E) [link](https://www.aliexpress.com/item/1pcs-lot-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-esp-12e-for-arduino/32775934156.html)
 * $4.20 LSM303DLHC sensor module [link](https://www.aliexpress.com/item/1-pcs-GY-511-LSM303DLHC-Module-E-Compass-3-Axis-Accelerometer-3-Axis-Magnetometer-Module-Sensor/1956617486.html)
 * $17.99 Signswise 600p/r Incremental Rotary Encoder DC5-24v 6mm shaft [link](https://www.amazon.com/gp/product/B00UTIFCVA)
 * $9.99 85 teeth GT2 timing pulley 10mm shaft [link](https://www.aliexpress.com/item/POWGE-1pcs-85-Teeth-GT2-Timing-Pulley-Bore-5-6-35-8mm-for-width-6mm-GT2/32773386105.html)
-* $0.82 20 teeth Gt2 timing pulley 6.35mm shaft  https://www.aliexpress.com/item/20tooth-Bore-6-35mm-GT2-Synchronous-Pulley-Aluminium-Timing-Gear-For-Width-6mm-Belt-3D-Printers/32808150854.html
-* 1.05 GT2 timing  belt (size depends on your telescope size), I used 400mm for the Z114 [link]https://www.aliexpress.com/item/Free-Shipping-3D-printer-belt-closed-loop-rubber-GT2-timing-belt-400-2GT-6-teeth-100/32477498985.html
+* $0.82 20 teeth Gt2 timing pulley 6.35mm shaft [link](https://www.aliexpress.com/item/20tooth-Bore-6-35mm-GT2-Synchronous-Pulley-Aluminium-Timing-Gear-For-Width-6mm-Belt-3D-Printers/32808150854.html)
+* 1.05 GT2 timing  belt (size depends on your telescope size), I used 400mm for the Z114 [link](https://www.aliexpress.com/item/Free-Shipping-3D-printer-belt-closed-loop-rubber-GT2-timing-belt-400-2GT-6-teeth-100/32477498985.html)
 
 Subtotal parts cost: *$37.1*
 
