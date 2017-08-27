@@ -26,7 +26,7 @@ You can see I'm using a woodworking clamp to affix the encoder in the position r
 * $17.99 Signswise 600p/r Incremental Rotary Encoder DC5-24v 6mm shaft [link](https://www.amazon.com/gp/product/B00UTIFCVA)
 * $9.99 85 teeth GT2 timing pulley 10mm shaft [link](https://www.aliexpress.com/item/POWGE-1pcs-85-Teeth-GT2-Timing-Pulley-Bore-5-6-35-8mm-for-width-6mm-GT2/32773386105.html)
 * $0.82 20 teeth Gt2 timing pulley 6.35mm shaft [link](https://www.aliexpress.com/item/20tooth-Bore-6-35mm-GT2-Synchronous-Pulley-Aluminium-Timing-Gear-For-Width-6mm-Belt-3D-Printers/32808150854.html)
-* 1.05 GT2 timing  belt (size depends on your telescope size), I used 400mm for the Z114 [link](https://www.aliexpress.com/item/Free-Shipping-3D-printer-belt-closed-loop-rubber-GT2-timing-belt-400-2GT-6-teeth-100/32477498985.html)
+* $1.05 GT2 timing  belt (length depends on your telescope size), I used 400mm for the Z114 [link](https://www.aliexpress.com/item/Free-Shipping-3D-printer-belt-closed-loop-rubber-GT2-timing-belt-400-2GT-6-teeth-100/32477498985.html)
 
 Subtotal parts cost: *$37.1*
 
@@ -56,6 +56,6 @@ You could choose to power the LSM303DLHC from the 5V power supply using the Vin 
 
 I've used this DSC successfully with my Z114 telescope (from now on, my *Z114i*). The accuracy is on par to that of my Skywatcher goto mount. 
 
-To use it you just connect your tablet to the access point published by the device, configure Skysafari 5 Plus (or Deep Sky Browser, or other program) to connecto the IP address of the device (by default: 1.2.3.4 port 4030), select "Basic Encoders" for Telescope type, and voilà! Skysafari is now connected to your scope.
+To use it you just connect your tablet to the access point published by the device, configure SkySafari 5 Plus (or Deep Sky Browser, or other program) to connecto the IP address of the device (by default: 1.2.3.4 port 4030), select "Basic Encoders" for Telescope type, and voilà! SkySafari is now connected to your telescope.
 
 To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller. Enjoy
