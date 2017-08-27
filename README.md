@@ -42,9 +42,9 @@ For simplicity and cost savings, altitude is driven by the same high-res acceler
 
 The microcontroller is a very inexpensive ESP8266, I used the nodeMCU variant which seems to be tolerant of the 5V inputs from the encoder. You can use any 5V power source you want, I'm using a power bank:
 
-The large box is the power bank, the smaller box is housing the main circuit with the ESP8266:
-
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/dobDSC-back.jpg "Back")
+
+The large box is the power bank, the smaller box is housing the main circuit with the ESP8266.
 
 ## Circuit
 
@@ -52,6 +52,8 @@ The circuit, is very very simple:
 
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "Circuit")
 
-I've tried it successfully with my Z114 telescope (from now on, my Z114i). The accuracy is on par to that of my Skywatcher goto mount. 
+You could choose to power the LSM303DLHC from the 5V power supply using the Vin pin instead of the 3V3 pin of the LSM303DLHC. I'm using the 3V3 from the ESP to power it in order to reuse the sensor in my other ESP8266 projects.
+
+I've used this DSC successfully with my Z114 telescope (from now on, my *Z114i*). The accuracy is on par to that of my Skywatcher goto mount. 
 
 To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller.
