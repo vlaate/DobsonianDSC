@@ -13,8 +13,9 @@ This DSC achieves the following:
 * High resolution: 10200 counts per resolution (compare to the 11,748 counts per revolution of the Skywatcher Goto Dobs)
 * Instead of a wired handheld control, it communicates with Android/iOS apps like Skysafary 5 (plus or pro), DSC-Browser and others via WiFi.
 
-My prototype is removable version installed on a Zhumell Z114 tabletop:
+My prototype is a removable version installed on a Zhumell Z114 tabletop:
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/dobDSC-front.jpg "Finished look")
+You can see I'm using a woodworking clamp to affix the encoder in the position required to have proper tension in the timing belt. This way, the DSC is very easy to remove from the scope.
 
 ## Parts list:
 
