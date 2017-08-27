@@ -56,6 +56,6 @@ You could choose to power the LSM303DLHC from the 5V power supply using the Vin 
 
 I've used this DSC successfully with my Z114 telescope (from now on, my *Z114i*). The accuracy is on par to that of my Skywatcher goto mount. 
 
-To use it you just connect your tablet to the access point published by the device, configure SkySafari 5 Plus (or Deep Sky Browser, or other program) to connecto the IP address of the device (by default: 1.2.3.4 port 4030), select "Basic Encoders" for Telescope type, and voilà! SkySafari is now connected to your telescope.
+To use it you just connect your tablet to the access point created by the device, configure SkySafari 5 Plus (or Deep Sky Browser, or other program) to connecto the IP address of the device (by default: 1.2.3.4 port 4030), select "Basic Encoders" for Telescope type, and voilà! SkySafari is now connected to your telescope.
 
 To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller. Enjoy
