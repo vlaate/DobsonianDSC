@@ -32,7 +32,7 @@ Subtotal parts cost: *$37.1*
 
 Add some solder, cables, a 5V power source, a couple resistors, and screws for attaching the encoder to the base whichever way you want. A maker can build this DIY DSC for much less than the cost of two high resolution optical encoders and a NexusDSC.
 
-The key to this new version of my DSC is the use of an inexpensive optical encoder for azimuth. The $17.99 encoder I used has 600ppr, which using quadrature produces 2400 counts per revolution, which would not be engough for a DSC, but using GT2 timing pulleys of 85 and 20 teeth (for a ratio of 1 : 4.25) we can now get 10200 counts per revolution on azimuth, for just a fraction of the price of a 10k encoder. This is how the GT2 pulleys and belt look in the base of my Z114:
+The key to this new version of my DSC is the use of an inexpensive optical encoder for azimuth. The $17.99 encoder I used has 600ppr, which using quadrature produces 2400 counts per revolution, which would not be engough for a DSC, but using GT2 timing pulleys of 85 and 20 teeth (for a ratio of 4.25 to 1) we can now get 10200 counts per revolution on azimuth, for just a fraction of the price of a 10k encoder. This is how the GT2 pulleys and belt look in the base of my Z114:
 
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/dobDSC-upclose.jpg "Pulleys")
 
