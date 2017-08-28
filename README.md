@@ -52,7 +52,7 @@ The circuit, is very very simple:
 
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "Circuit")
 
-You could choose to power the LSM303DLHC from the 5V power supply using the Vin pin instead of the 3V3 pin of the LSM303DLHC. I'm using the 3V3 from the ESP to power it in order to reuse the sensor in my other ESP8266 projects.
+Please note that I'm powering the LSM303DLHC from the NodeMCU 3V3 line, not from the 5V power supply using the Vin pin.  
 
 I've used this DSC successfully with my Z114 telescope (from now on, my *Z114i*). The accuracy is on par to that of my Skywatcher goto mount. 
 
