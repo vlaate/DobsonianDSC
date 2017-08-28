@@ -10,7 +10,7 @@ This DSC achieves the following:
 
 * Easy and inexpensive to build, for a DIY maker or Arduino enthusiast.
 * Can be attached to dobsonian mounts, included tabletops.
-* High resolution: 10.200 counts per revolution (compare to the 11.748 counts per revolution of the Skywatcher Goto Dobs)
+* High resolution: 10.200 counts per revolution (compare to the 9.216 counts per revolution of the Orion XT 10i, or the 11.748 cpr of SkyWatcher dobsonians).
 * Instead of a wired handheld control, it communicates with Android/iOS apps like Skysafary 5 (plus or pro), DSC-Browser and others via WiFi.
 
 My prototype is a removable version installed on a Zhumell Z114 tabletop:
