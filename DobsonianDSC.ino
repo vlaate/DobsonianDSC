@@ -137,7 +137,7 @@ void setup()
   Serial.begin(57600);
   Serial.println("\nESP266 boot");
 
-  Wire.begin(0, 2);     // connect D3(GPIO_0) to sensor's SDA, connect D4(GPIO_2) to sensor's SCL
+  Wire.begin(2, 0);     // connect D3(GPIO_0) to sensor's SCL, connect D4(GPIO_2) to sensor's SDA
   //  i2cscan();        // uncomment this if you are having I2C problems (quality of solder contacts, lack of pull-up resistors)
 
   WiFi.mode(WIFI_AP);
