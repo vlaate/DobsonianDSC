@@ -32,10 +32,10 @@
      The sensor is meant to be placed sideways (with the Z axis horizontal, on the left side of the telescope OTA)
 */
 
-#include <Encoder.h>
-#include <Wire.h>
-#include <LSM303.h>
-#include <ESP8266WiFi.h>
+#include <Encoder.h>  // Install this on Arduino IDE: "Encoder Library by Paul Stoffregen" (I used version 1.4.1), https://www.pjrc.com/teensy/td_libs_Encoder.html
+#include <Wire.h>     // built in library from Arduino IDE
+#include <LSM303.h>   // Install this on Arudino IDE: "LSM303 Library by Pololu" (I used version 3.0.1), https://github.com/pololu/lsm303-arduino
+#include <ESP8266WiFi.h>  // built in library from Arduino IDE
 #define RADIAN_TO_STEPS   1623.3804f  // ratio to convert from radians to encoder steps, using a "full circle" of 10200 steps as the Skysafari setting for basic encoder
 #define STEPS_IN_FULL_CIRCLE  10200    // number of steps in a full circle, should match the skysafari setting for basic encoder
 #define EMA_WEIGHT   0.05f  // weight coefficient for new values vs old values used in the exponential moving average smoothing algorithm
