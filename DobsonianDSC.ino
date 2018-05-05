@@ -238,6 +238,15 @@ void attendTcpRequests()
 
       remoteClient.println(encoderResponse);
     }
+    else if (skySafariCommand == 72) // 'H' - request for encoder resolution, e.g. 10000-10000\n
+    {
+      char response[20];
+      // Resolution on both axis is equal
+      snprintf(response, 20, "%u-%u", STEPS_IN_FULL_CIRCLE, STEPS_IN_FULL_CIRCLE);
+//      Serial.println(response);
+
+      remoteClient.println(response);
+    }
     else
     {
       Serial.print("*****");
