@@ -21,8 +21,8 @@
     NodeMCU ESP8266 development board (version 12E) I used the HiLetgo model https://www.amazon.com/gp/product/B010O1G1ES 
     LSM303DLHC sensor module, I used this one: https://www.aliexpress.com/item/1-pcs-GY-511-LSM303DLHC-Module-E-Compass-3-Axis-Accelerometer-3-Axis-Magnetometer-Module-Sensor/1956617486.html
     ESP8266 pinout:
-     SDA = GPIO2 = PIN_D4   (use 3.3K pullup to VCC)
-     SCL = GPIO0 = PIN_D3   (use 3.3K pullup to VCC)
+     SDA = GPIO2 = PIN_D4   (use 3.3K pullup to 3V3)
+     SCL = GPIO0 = PIN_D3   (use 3.3K pullup to 3V3)
      Encoder_A = GPIO4 = PIN_D2
      Encoder_B = GPIO5 = PIN_D1
      VIN = Encoder VCC = 5V power source
