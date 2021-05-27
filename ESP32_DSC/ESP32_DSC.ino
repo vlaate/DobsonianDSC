@@ -274,9 +274,6 @@ void attendTcpRequests()  // handle connections from SkySafari and similar softw
   }
 }
 
-/**
- * 
- */
 void attendBTRequests()   // handle connections from SkySafari and similar software via BlueTooth
 {
   if (SerialBT.available()) {
