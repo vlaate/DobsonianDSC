@@ -57,14 +57,8 @@ The large box is the power bank, the smaller box is housing the main circuit wit
 
 The circuit, is very very simple:
 
-![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "Circuit")
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/Circuit_ESP32.png "ESP32 Circuit")
 
-Please note that I'm powering the LSM303DLHC from the NodeMCU 3V3 line, not from the 5V power supply using the Vin pin.  
-
-I've used this DSC successfully with my Z114 telescope (from now on, my *Z114i*). The accuracy is on par to that of my Skywatcher goto mount. 
-
-To use it you just connect your tablet to the access point created by the device, configure SkySafari 5 Plus (or Deep Sky Browser, or other program) to connecto the IP address of the device (by default: 1.2.3.4 port 4030), select "Basic Encoders" for Telescope type, and voilà! SkySafari is now connected to your telescope.
-
-To use the source code released here you will need the arduino IDE to compile and deploy it to your microcontroller, and you'll need to install the Encoder Library by Paul Stoffregen (I used version 1.4.1), and the LSM303 Library by Pololu (I used version 3.0.1).
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "ESP8266 Circuit")
 
 You can ask questions or provide feedback [here](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/).
