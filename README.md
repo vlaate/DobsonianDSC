@@ -19,7 +19,7 @@ The new ESP32 version also features:
 * Ability to connect to an external WiFi (to maintain access to the internet while using the DSC)
 * Ability to communicate the obtained IP address via Pushover notifications to smartphones.
 * Bluetooth support.
-* Web configuration page for easily configuring everything: WiFi settings/passwrod, encoder resolutions, flipping encoder pins, notification API/keys.
+* Web configuration page for easily configuring everything: WiFi settings/password, encoder resolutions, flipping encoder pins, notification API/keys.
 
 This is what the Encoder+Accelerometer version looks like installed on a tabletop Zhumell Z114 minidob:
 
