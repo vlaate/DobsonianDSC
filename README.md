@@ -57,8 +57,10 @@ The large box is the power bank, the smaller box is housing the main circuit wit
 
 The circuit, is very very simple:
 
+ESP32 version:
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/Circuit_ESP32.png "ESP32 Circuit")
 
+ESP8266 version:
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "ESP8266 Circuit")
 
 You can ask questions or provide feedback [here](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/).
