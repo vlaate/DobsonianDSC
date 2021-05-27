@@ -63,4 +63,8 @@ ESP32 version:
 ESP8266 version:
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/encoder.png "ESP8266 Circuit")
 
+Web Configuration:
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/webConfig_small.png "Web Configuration")
+
+
 You can ask questions or provide feedback [here](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/).
