@@ -53,7 +53,7 @@ The Telescope DSC project depends on a couple of open source libraries. To insta
 
 In the top menu, select "Tools" -> "Manage Libraries"
 
-The library manager window pops up. The text field is a search field. Type "ESP32Encoder" on it, and wait for the list of libraries to update. When a library called *"ESP32Encoder by Kevin Harrington"* shows up, click on its "Install" button.
+The library manager window pops up. The text field is a search field. Type "ESP32Encoder" on it, and wait for the list of libraries to update. When a library called *"ESP32Encoder by Kevin Harrington"* shows up, click on it's "Install" button.
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/6.png "Install ESP32Encoder")
 
@@ -65,7 +65,7 @@ Now that your Arduino IDE is ready to compile programs for the ESP32 family of m
 
 In the top arduino menu, select "Tools" -> "Board: XXX" -> "ESP32 Arduino"
 
-You will see a long list of ESP32 boards supported by the IDE. If you got the ESP-32S Development Board recommended in the parts list section, then choose "ESP32 Dev Module".
+You will see a long list of ESP32 boards supported by the IDE. If you are going to use the ESP-32S Development Board that is recommended for the Telescope DSC project, then choose "ESP32 Dev Module". 
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/7.png "Select Board")
 
