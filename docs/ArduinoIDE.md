@@ -10,11 +10,11 @@ Go to https://www.arduino.cc/en/software and download the Arduino IDE for your o
 ### 2. Install
 
 Launch the downloaded installer, make sure all the components are selected (they are by default, even the "USB driver") and let it complete installation:
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/2.png "Installing IDE")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/2.png "Installing IDE")
 
 ### 3. Launch IDE
 Now that you have installed the Arduino IDE (Integrated Development Environment) you'll see a new Arduino icon on your computer. Use it to Launch the Arduino Integrated Development Environment. 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/3.png "Launch IDE")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/3.png "Launch IDE")
 This is the software used to compile the arduino programs and installed the compiled programs (via USB) to your microcontroller. 
 
 ### 4. Add Board Manager URLs
@@ -23,7 +23,7 @@ For the Arduino IDE to be able to work with ESP32 and similar microcontrollers, 
 
 To do this, in the top menu of the Arduino IDE select "File" -> "Preferences":
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/4.png "Add URLs")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/4.png "Add URLs")
 
 In the emerging window there's a setting called "Additional Boards Manager URLs".
 
@@ -39,7 +39,7 @@ Click "OK" to close the preferences window, and back at the arduino top menu, se
 
 The boards manager window pops up. The text field is a search field. Type "ESP32" on it, and wait for the list of boards to update. When a board called "esp32 by Espressif Systems" shows up, click on it's "Install" button:
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/5.png "Install ESP32 BM")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/5.png "Install ESP32 BM")
 
 Once it's done installing, click the "Close" button.
 
@@ -51,7 +51,7 @@ In the top menu, select "Tools" -> "Manage Libraries"
 
 The library manager window pops up. The text field is a search field. Type "ESP32Encoder" on it, and wait for the list of libraries to update. When a library called *"ESP32Encoder by Kevin Harrington"* shows up, click on its "Install" button.
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/6.png "Install ESP32Encoder")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/6.png "Install ESP32Encoder")
 
 After the encoder library is installed, change the search field to "ArduinoJson" and look for a library called *"ArduinoJson by Benoit Blanchon"* and Install it too. When finished, close the library manager window.
 
@@ -63,7 +63,7 @@ In the top arduino menu, select "Tools" -> "Board: XXX" -> "ESP32 Arduino"
 
 You will see a long list of ESP32 boards supported by the IDE. If you got the ESP-32S Development Board recommended in the parts list section, then choose "ESP32 Dev Module".
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/7.png "Select Board")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/7.png "Select Board")
 
 ### 8. Configure Memory
 
@@ -72,7 +72,7 @@ In order to prevent a compilation error saying *"Sketch too big"*, you need to a
 
 So, in the top arduino IDE menu lesect "Tools" -> "Partition Scheme: XX" -> "Huge App 3MB no OTA/1MB SPIFFS". This will prevent you from getting the following error:
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/8.png "Sketch Too Big")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/8.png "Sketch Too Big")
 
 **Note:** Part of the reason why I recommended you to select as a board "ESP32 Dev Module" in the previous step is that some other boards don't allow you to change partition mode (for example the NoedMCU21-S does not). If you choose to use a different board such as WROOM, Wemos D1 ESP32, etc, look for Partition Scheme settings called "Huge App" or similar.
 
@@ -93,7 +93,7 @@ In the Arduino IDE top menu, select "Tools" -> "Port: XX"
 
 You will see a list of serial ports (COM1, COM5, etc). You are supposed to choose the one that was assigned to your ESP32 microcontroller:
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/10.png "Com Ports")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/10.png "Com Ports")
 
 ¿How do I know which COM port is the one assigned to my USB mircocontroller?
 
@@ -107,7 +107,7 @@ Then in the Arduino IDE top menu, select "Tools" -> "Get Board Info"
 
 You should see a small pop-up window that contains either the serial number of your microcontroller board, or the message "SN: upload any sketch to obtain it":
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/11.png "Board Info")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/11.png "Board Info")
 
 If you get this message, all is OK.
 
@@ -167,11 +167,11 @@ void loop()
 13. Now select "File" -> "Save" and save the sketch somewhere in your computer.
 Then, to upload the sketch click you can either select "Sketch" -> "Upload" or click on the icon with the "right arrow:
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/12.png "Upload")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/12.png "Upload")
 
 The bottom part of the IDE will show the messages from the compiling and uploading process (For the screenshot I enlarged the messages section but it's normally just 3 lines tall):
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/13.png "Uploaded")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/13.png "Uploaded")
 
 If you get the same messages (ending with "Hash of data verified. Leaving... Hard resetting via RTS pin...") then all is well.
 
@@ -183,13 +183,13 @@ To test this, select "Tools" -> Serial Monitor".
 
 A small window shows up. At the bottom-right of the window, there is a combo-box. Use it to select "115200" which is the communication speed the sketch expects to use:
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/14.png "Baud Rate")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/14.png "Baud Rate")
 
 Now in the top of the serial monitor window, there's a text box. Type something (such as "Hello telescope") into it and click the "Send" button.
 
 You should see a reply from the microcontroller containing whatever text you sent, like this:
 
-![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/blob/master/img/15.png "Success")
+![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/15.png "Success")
 
 And that's it! If you got this far and things worked as described in the steps, then you've successfully set up your computer to program an ESP32 microcontroller, and you're ready for the next guide.
 
