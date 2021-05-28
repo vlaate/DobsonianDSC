@@ -1,7 +1,7 @@
 # Arduino IDE Beginners Guide
 
 The purpose of this guide is to help someone who wants to build the Telescope DSC project, but who has never had any experience with Arduino, microcontrollers, or anything similar. As such, this guide is for the absolute beginner, and 
-it will provide step by step instructions on how to install and configure the Arduino IDE on your computer, connect your mircocontroller, and validate things are working. 
+it will provide step by step instructions on how to install and configure the Arduino IDE on your computer, connect your microcontroller, and validate that things are working as intended. 
 
 ### 1. Download the Arduino IDE Software
 
