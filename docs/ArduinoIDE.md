@@ -74,15 +74,15 @@ You will see a long list of ESP32 boards supported by the IDE. If you are going 
 The telescope DSC project takes a lot of memory (mostly because bluetooth libraries are big).
 In order to prevent a compilation error saying *"Sketch too big"*, you need to assign more of the microcontroller's memory to the app (and less to the filesystem).
 
-So, in the top arduino IDE menu lesect "Tools" -> "Partition Scheme: XX" -> "Huge App 3MB no OTA/1MB SPIFFS". This will prevent you from getting the following error:
+So, in the top arduino IDE menu select "Tools" -> "Partition Scheme: XX" -> *"Huge App 3MB no OTA/1MB SPIFFS"*. This will prevent you from getting the error detailed above (orange text):
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/8.png "Sketch Too Big")
 
-**Note:** Part of the reason why I recommended you to select the "ESP32 Dev Module" in a previous step was that a few other boards don't allow you to change partition scheme (for example the NoedMCU21-S does not allow it). If you choose to use a different board such as WROOM or a Wemos D1 ESP32, etc, look for Partition Scheme settings called "Huge App" or similar.
+**Note:** Part of the reason why I recommended you to select the "ESP32 Dev Module" in a previous step was that a few other boards don't allow you to change partition scheme (for example the NoedMCU21-S does not allow it). If you decide to use a different board such as WROOM or a Wemos D1 ESP32, etc, look for Partition Scheme settings called "Huge App" or similar.
 
 ### 9. Connect the Microcontroller
 
-Now it's time to tell your IDE how to communicate with your mircocontroller device. Plug your USB cable to your ESP32 microcontroller, and plug it to your computer.
+Now it's time to tell your IDE how to communicate with your microcontroller device. Plug your USB cable to your ESP32 microcontroller, and plug the other end to your computer.
 
 Under normal circumstances, the needed drivers should already be bundled with your operating system and automatically installed upon connecting the ESP board to the PC. If you are using an old OS, or run into problems, check the guide from Espressiff   (the ESP manufacturer) which contains links for drivers:
 
@@ -99,7 +99,7 @@ You will see a list of serial ports (COM1, COM5, etc). You are supposed to choos
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/10.png "Com Ports")
 
-**¿How do I know which COM port is the one assigned to my USB mircocontroller?**
+**¿How do I know which COM port is the one assigned to my USB-connected microcontroller?**
 
 A simple way is: With the USB cable is still connected, take note of all the names on the ports list. Then click with your mouse somewhere else on the IDE so that the menu (and the list of com ports) is no longer visible. Then Unplug the USB cable. Then select "Tools" -> "Port: XX" again to view the list. Whichever name dissappeared from the list after unplugging the USB cable, that's the COM port that corresponds to your ESP32 microcontroller.
 
@@ -109,11 +109,11 @@ Make sure your USB cable is plugged to both your ESP32 microcontroller and your 
 
 Then in the Arduino IDE top menu, select "Tools" -> "Get Board Info"
 
-You should see a small pop-up window that contains either the serial number of your microcontroller board, or the message "SN: upload any sketch to obtain it":
+You should see a small pop-up window that contains either the serial number of your microcontroller board, or the message *"SN: upload any sketch to obtain it"*:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/11.png "Board Info")
 
-If you get this message, all is OK.
+If you get a similar  message to this, all is OK. If you get a small message on the green bar saying "can't obtain info", try with a different COM port.
 
 ### 12. Creating a Test Sketch
 
@@ -171,19 +171,19 @@ void loop()
 
 Now select "File" -> "Save" and proceed to save the sketch somewhere in your computer.
 
-Next step is to "upload" the sketch to the ESP32 microcontroller via the USB vable. To do this, you can either select "Sketch" -> "Upload" or click on the icon with the "right arrow:
+Next step is to "upload" the sketch to the ESP32 microcontroller via the USB vable. To do this, you can either select "Sketch" -> "Upload" or click on the round icon with an arrow pointing right:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/12.png "Upload")
 
-When you do this, the bottom part of the IDE (black background with orange text) will show a lot of messages from the compiling and uploading process (For the screenshot I enlarged the messages section but it's normally just 3 lines tall):
+When you do this, the bottom part of the IDE (black background with orange text) will show a lot of messages from the compiling and uploading process. For this screenshot I enlarged the messages section, but it's normally just 3 lines tall:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/13.png "Uploaded")
 
 When this is complete, the little green bar will contain the message "Done uploading." as seen on the screenshot.
 
-If you get this message (along with the "Hash of data verified. Leaving... Hard resetting via RTS pin...") then all is well: the program has been compiled uploaded to your ESP microcontroller. In fact, it's proably already being executed in the tiny microcontroller. 
+If you get this message then all is well: the program has been compiled and uploaded to your ESP microcontroller. In fact, it's proably already being executed in the device. 
 
-### 14. Validating the Microcontroller works
+### 14. Validating the ESP32 microcontroller works
 
 What the sketch you uploaded does, is recieve messages and respond with an echo. This will enable us to validate that the hardware is properly working, including the ESP32 microcontroller itself, and the USB connection to it.
 
