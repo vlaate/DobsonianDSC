@@ -19,7 +19,7 @@ Now that you have installed the Arduino IDE (Integrated Development Environment)
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/3.png "Launch IDE")
 
-This is the software used to compile the arduino programs and installed the compiled programs (via USB) to your microcontroller. 
+This is the software used to compile the arduino programs and upload them (via USB) to your ESP32 microcontroller. 
 
 ### 4. Add Board Manager URLs
 
