@@ -73,13 +73,13 @@ If you know of other suitable encoders, you can let us know at the [CloudyNights
 
 The ESP32 boards typically come with a micro-USB connector, so USB power banks are the easiest solution to power the DSC.
 
-In order to use power sources with a DC barrel plug, such as the popular Talentcell 12V rechargeable batteries, or a 9V rechargeable with a plug adapter, there's as small module that can be used:
+In order to use power sources with a DC barrel plug, such as the popular Talentcell 12V rechargeable batteries, or a 9V rechargeable with a plug adapter, there's a small module that can be used:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/battery_options.jpg "Battery")
 
-That little [blue module](https://www.aliexpress.com/item/32806774850.html) can take any voltage from 7V to 12V and output 5V at 800mA (more than enough for the ESP32 and two encoders). so you can use it to power the DSC by connecting the "VIN" pin rfom the ESP32 and the red "5V" cable from the screw shield to the "5V OUT" pins of the blue module. (and do the same for the black GND cable from the screw shield and the GND pin of the ESP32).
+That little [blue module](https://www.aliexpress.com/item/32806774850.html) can take any voltage from 7V to 12V and output 5V (and more than enough mA for the ESP32 and two encoders). so you can use it to power the DSC by connecting the "VIN" pin rfom the ESP32 and the red "5V" cable from the screw shield to the "5V OUT" pins of the blue module, and also the black GND cable from the screw shield plus the GND pin of the ESP32 to the GND pin of the blue module.
 
-It's not efficient because to drop the voltage to 5V, some energy must be wasted into heat, but it can be convenient, specially if you don't own an USB power bank.
+It's not actually efficient because to drop the voltage to 5V, some energy must be wasted into heat, but it can be convenient, specially if you don't already own an USB power bank.
 
 ## About Different versions of the ESP-32
 
