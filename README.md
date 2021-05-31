@@ -9,7 +9,7 @@ This project is an implementation of Digital Setting Circles for dobsonian teles
 This DSC achieves the following:
 
 * Absolute minimum number of components, making it simple and inexpensive.
-* Easy and inexpensive to build, no soldering required.
+* Easy to build, no soldering required.
 * Wireless communication with apps like SkySafari, DSO-Browser and others. No need for a wired handheld control.
 * Ability to connect to an external WiFi (to maintain access to the internet while using the DSC)
 * Ability to communicate the obtained IP address via Pushover notifications to smartphones.
