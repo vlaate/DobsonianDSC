@@ -13,7 +13,7 @@ There are very few components involved in this dual encoder DSC:
 
   * Two optical encoders with NPN open-collector outputs (discussed in more detail further below).
   * One "30 pin" ESP32 development board ([aliexpress](https://www.aliexpress.com/item/32800930387.html), [amazon](https://www.amazon.com/dp/B079PVCF2G)).
-  * One keyes screw shield v2 ([keyestudio.com](https://www.keyestudio.com/products/keyes-screw-shield-v2-stud-terminal-expansion-board-double-support) or [aliexpress](https://www.aliexpress.com/item/2030646961.html)).
+  * One keyes screw shield v2 ([keyestudio.com](https://www.keyestudio.com/products/keyes-screw-shield-v2-stud-terminal-expansion-board-double-support), [aliexpress](https://www.aliexpress.com/item/2030646961.html)).
   * A set of 10 Dupont Cables 10cm long, either male-to-female or female-to-female ([aliexpress](https://www.aliexpress.com/item/32798042976.html)).
 
 Before you go on assembling the circuit, make sure you have already uploaded the software to the ESP-32.
@@ -25,7 +25,7 @@ The circuit for this DSC is very simple. The logical view tells you it's basical
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/Circuit_ESP32S.png "Logic Circuit")
 
-To make those connections in a simple way without needing to use a soldering iron, we'll use the *"keyes screw shield v2"* which is a small module that offers screw terminals and adapts them to dupont connectors:
+To make those connections easily and without needing to use a soldering iron, we'll use the *"keyes screw shield v2"* which is a small module that offers screw terminals and adapts them to dupont connectors:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/keyes_screw_shield.jpg "keyes screw shield")
 
@@ -36,7 +36,7 @@ The following diagram explains how the wiring should go from the ESP32 to this "
   * Note that there 4 screw terminals labeled "**GND**", you can use any of them to connect the black GND wires from the optical encoders.
   * Note that there are 2 screw terminals labeled "**5V**", you can use any of them to connect the red 5V wires from the optical encoders.
   * The **A (Yellow)** and a **B (Green)** wires from the Azimuth encoder should go into the green screw terminals labeled **A0**, **A1**.
-  * The **A (Yellow)** and a **B (Green)** wires from the Altitued encoder should go into the green screw terminals labeled **A2**, **A3**.
+  * The **A (Yellow)** and a **B (Green)** wires from the Altitude encoder should go into the green screw terminals labeled **A2**, **A3**.
 
 After plugging the encoder wires into the appropriate screw terminals (green), you can use dupont cables to connect the dupont terminals (black) to the corresponding pins of the ESP-32, like this:
 
@@ -65,6 +65,8 @@ The most common encoder useable for this DSC project is the *Signswise / BQLZR* 
 
 There seems to be a [source](https://www.aliexpress.com/item/32961497880.html) for higher resolution OMRON E6B2-CWZ6C encoders (of up to 2500 p/r) but I've not personally tested them. Note that only the CWZ6C family is NPN open-collector, other references (CWZ5B, CWZ3E, CWZ1X) are not. ([datasheet](http://www.ia.omron.com/data_pdf/cat/e6b2-c_ds_e_6_1_csm491.pdf))
 
+If you are going to use GT2 gears, remember that the shaft width is 6mm for the Signswise, BQLZR and OMRON E6B2.
+
 If you know of other suitable encoders, you can let us know at the [CloudyNights forum](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/)
 
 ## About Battery Power
@@ -75,6 +77,11 @@ In order to use power sources with a DC barrel plug, such as the popular Talentc
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/battery_options.jpg "Battery")
 
-That little [blue module](https://www.aliexpress.com/item/32806774850.html) can take any voltage from 7V to 12V and output 5V at 800mA (more than enough for the ESP32 and two encoders), so you can use it to power the DSC by connecting 5V to the *"VIN"* pin of the ESP-32, and *GND* to GND.
+That little [blue module](https://www.aliexpress.com/item/32806774850.html) can take any voltage from 7V to 12V and output 5V at 800mA (more than enough for the ESP32 and two encoders). so you can use it to power the DSC by connecting the "VIN" pin rfom the ESP32 and the red "5V" cable from the screw shield to the "5V OUT" pins of the blue module. (and do the same for the black GND cable from the screw shield and the GND pin of the ESP32).
 
 It's not efficient because to drop the voltage to 5V, some energy must be wasted into heat, but it can be convenient, specially if you don't own an USB power bank.
+
+## About Different versions of the ESP-32
+
+The ESP32 microcontroller comes in different versions. This guide features the one with 30 pins / GPIOs, but there are versions with 38 pins, versions in the UNO form factor, and more. Any version can be used, but the pinouts illustrated in this guide are for the 30 pin version, so a beginer might be better off using exactly that one.
+
