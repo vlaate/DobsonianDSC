@@ -22,7 +22,7 @@
 /**
     Hardware used:
     NodeMCU ESP8266 development board (version 12E) I used the HiLetgo model https://www.amazon.com/gp/product/B010O1G1ES 
-    LSM303DLHC sensor module, I used this one: https://www.aliexpress.com/item/1-pcs-GY-511-LSM303DLHC-Module-E-Compass-3-Axis-Accelerometer-3-Axis-Magnetometer-Module-Sensor/1956617486.html
+    LSM303DLHC sensor module, I used this one: https://www.aliexpress.com/item/1956617486.html
     ESP8266 pinout:
      SDA = GPIO2 = PIN_D4   (use 3.3K pullup to 3V3)
      SCL = GPIO0 = PIN_D3   (use 3.3K pullup to 3V3)
@@ -50,7 +50,7 @@ long last_measurement = 0;  // millisecond timestamp of last measurement, to mea
 
 WiFiServer server(4030);    // 4030 is the default port Skysafari uses for WiFi connection to telescopes
 WiFiClient remoteClient;    // represents the connection to the remote app (Skysafari)
-#define WiFi_Access_Point_Name "vlaDSC-Telescope"   // Name of the WiFi access point this device will create for your tablet/phone to connect to.
+#define WiFi_Access_Point_Name "TelescopeDSC"   // Name of the WiFi access point this device will create for your tablet/phone to connect to.
 
 long oldPosition  = -999;
 
