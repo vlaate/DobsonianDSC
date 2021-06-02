@@ -26,7 +26,7 @@ This DSC achieves the following:
 
 ## Pics:
 
-![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/dobDSC-upclose.jpg "GT2 up close")
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/full_close.jpg "Mini Dob with DSC")
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/components.jpg "GT2 up close")
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/webConfig_sm.png "Web Configuration")
 
