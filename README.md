@@ -33,10 +33,10 @@ This is what it looks like installed on a small tabletop dobsonian:
 
 ## Pics:
 
-![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/full_close.jpg "Mini Dob with DSC")
-![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/components.jpg "GT2 up close")
-![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/webConfig_sm.png "Web Configuration")
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/full_close.jpg "Close up AZ")
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/Alt_encoder_1.jpg "Alt Encoder 1")
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/Alt_encoder_2.jpg "Alt Encoder 2")
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/components.jpg "Components")
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/webConfig_sm.png "Web Configuration")
 
 
