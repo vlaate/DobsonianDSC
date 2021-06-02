@@ -111,7 +111,7 @@ The DSC is meant to be used with astronomy apps that support the "Basic Encoding
 
 First, you need to make sure that your DSC is powered on and that you can connect to it's web configuration page.
 
-In SkySafari, click on the *"Settings"* icon and look for a section called *"Telescope"*. This containsan item called *"Setup"*:
+In SkySafari, tap on the *"Settings"* icon and look for a section called *"Telescope"*. This containsan item called *"Setup"*:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/Skysafari_3.png "SkySafari B")
 
@@ -131,9 +131,11 @@ Finally, you can close the Settings menu and in SkySafari's main screen select "
 
 If you don't get the success "ding", check that you can still connect to the web configuration interface. As long as you can browse the web configuration page, you should be able to connect with SkySafari.
 
+If you haven't yet built the circuit for the DSC, now is the right time to check the [Guide for Building the Circuit](https://github.com/vlaate/DobsonianDSC/blob/master/docs/Solderless.md).
+
 ### Alignment Tips
 
-It's often recommended (specially if you do only one star alignment) that before use, you first use a bubble level to properly level the base of your dobsonian.
+It's often recommended that you first use a bubble level to properly level the base of your dobsonian, to get more accuracy from the DSC.
 
 Once SkySafari successfully connects to your DSC, it will initially assume that the telescope is pointing due north. You need to do the *Star Alignment* in order to get the DSC and SkySafari to properly display where your telescope is aimed at.
 
@@ -141,8 +143,8 @@ What yo uneed to do is point the telescope at a known star, center the star in t
 
 SkySafari now also lets you perform a second alignment with another star (hopefully one that's far away from the first star). This is called 2-star alignment, and it reduces the need to level the telescope mount base.
 
-To do this, just repeat the alignment process with a second star, choosing *"Align"* rather than *"Restart Alignment"* when asked by SkySafari. This should align the system to the sky, and now SkySafari should properly display where your telescope is pointed at.
+To do this, just repeat the alignment process with a second star, choosing *"Align"* rather than *"Restart Alignment"* when asked by SkySafari. Doing this second star alignment will allow SkySafari to have a better model of the mount and moer accurately display where your telescope is pointed at.
 
 **Note:** Although it seems that you can align on more stars, SkySafari only remembers the two most recent alignments.
 
-The first time you do this process, you might discover at this point that when moving the telescope in one direction, the movement in SkySafari is displayed in the opposite direction. To fix this, you can use the DSC's web configuration page, to change the **Flip Azimuth** and **Flip Altitude** options to reverse either encoder.
+The first time you do this process, you might discover at this point that when moving the telescope in one direction, SkySafari shows it moving in the opposite direction. To fix this, go to the DSC's web configuration page, and change the **Flip Azimuth** and **Flip Altitude** options to reverse the direction of either encoder.
