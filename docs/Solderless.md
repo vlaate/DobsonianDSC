@@ -61,11 +61,13 @@ For encoders connected to the telescope via some sort of gear reduction (such as
 
 In order to make this circuit as simple as possible, the optical encoders to be used **must** have **"NPN open-collector outputs"**. Encoders with other type of outputs (for example: *"Line Driver output"*) are not suited for this simple circuit and will require additional hardware such as level shifters.
 
-The most common encoder useable for this DSC project is the *Signswise / BQLZR* 600 p/r and it's generic clones. It's recommended to look for the mention of *"NPN open-collector"* in the vendor's page when dealing with generic ones. ([aliexpress](https://www.aliexpress.com/item/32669741048.html)) 
+The most common encoder useable for this DSC project is the *Signswise / BQLZR* 600 p/r and it's generic clones. It's recommended to look for the mention of *"NPN open-collector"* in the vendor's page when dealing with generic ones. ([aliexpress](https://www.aliexpress.com/item/32669741048.html)). 
 
-There seems to be a [source](https://www.aliexpress.com/item/32961497880.html) for higher resolution OMRON E6B2-CWZ6C encoders (of up to 2500 p/r) but I've not personally tested them. Note that only the CWZ6C family is NPN open-collector, other references (CWZ5B, CWZ3E, CWZ1X) are not. ([datasheet](http://www.ia.omron.com/data_pdf/cat/e6b2-c_ds_e_6_1_csm491.pdf))
+There seems to be a [source](https://www.aliexpress.com/item/32961497880.html) for higher resolution OMRON E6B2-CWZ6C encoders (of up to 2500 p/r) but I've not personally tested them. Note that only the CWZ6C family is NPN open-collector, other references (CWZ5B, CWZ3E, CWZ1X) are not. ([datasheet](http://www.ia.omron.com/data_pdf/cat/e6b2-c_ds_e_6_1_csm491.pdf)).
 
 If you are going to use GT2 gears, remember that the shaft width is 6mm for the Signswise, BQLZR and OMRON E6B2.
+
+A 3D printable bracket for the Signswise encoders can be found [here](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/page-5#entry8724826)
 
 If you know of other suitable encoders, you can let us know at the [CloudyNights forum](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/)
 
