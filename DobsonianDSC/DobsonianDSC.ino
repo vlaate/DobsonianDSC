@@ -1,9 +1,12 @@
 /*
-  Very Low Cost Digital Setting Circles
+  Digital Setting Circles for Dobsonian Telescopes -Accelerometer version-
+  For dual encoder version check https://github.com/vlaate/DobsonianDSC
+    
   This is a simple adapter to connect an inexpensive incremental optical encoder  
   and an accelerometer+compass (LSM303DLHC) via WiFi to the SkySafari Android/iOS app, 
   in order to provide "Push To" style features to dobsonian style telescope mounts 
   including tabletops.
+  
   Copyright (c) 2017 Vladimir Atehortua. All rights reserved.
   This program is free software: you can redistribute it and/or modify
   it under the terms of the version 3 GNU General Public License as
