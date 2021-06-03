@@ -4,6 +4,7 @@ There are many ways to build the electronic circuit for this telescope DSC.
 
 This guide will focus on a very simple and solderless way to assemble the components, so that even people who don't own a soldering iron (or don't know how to use one) can build the DSC for their telescope.
 
+It is highly recommended that before you start building this circuit, you first upload the software to the ESP32 microcontroller as detailed in the [Upload and Configuration guide](https://github.com/vlaate/DobsonianDSC/blob/master/docs/UploadConfigure.md).
 
 ## Parts List
 
