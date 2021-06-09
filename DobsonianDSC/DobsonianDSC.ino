@@ -261,7 +261,7 @@ void attendTcpRequests()  // handle connections from SkySafari and similar softw
         switch (character)
         {
           case 'Q':   // the Query command, sent by SkySafari and others as the "Basic Encoder protocol" to query for encoder values.
-            sprintf(response, "%i\t%i\t\n", AZencoder.getCount(), ALTencoder.getCount());
+            sprintf(response, "%lld\t%lld\t\n", AZencoder.getCount(), ALTencoder.getCount());
             serverClients[i].println(response);
             break;
           case 'H':   // 'H' - request for encoder resolution, e.g. 10000-10000\n
@@ -291,7 +291,7 @@ void attendBTRequests()   // handle connections from SkySafari and similar softw
     switch (character)
     {
       case 'Q':   // the Query command, sent by SkySafari and others as the "Basic Encoder protocol" to query for encoder values.
-        sprintf(response, "%05i\t%05i\t\n", AZencoder.getCount(), ALTencoder.getCount());
+        sprintf(response, "%lld\t%lld\t\n", AZencoder.getCount(), ALTencoder.getCount());
         Serial.print(response);
         SerialBT.println(response);
         break;
