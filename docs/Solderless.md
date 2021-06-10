@@ -86,6 +86,6 @@ In order to use power sources with a DC barrel plug, such as the popular Talentc
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/battery_options.jpg "Battery")
 
-That little [blue module](https://www.aliexpress.com/item/32806774850.html) can take any voltage from 7V to 12V and output 5V (and more than enough mA for the ESP32 and two encoders). so you can use it to power the DSC by connecting the "VIN" pin rfom the ESP32 and the red "5V" cable from the screw shield to the "5V OUT" pins of the blue module, and also the black GND cable from the screw shield plus the GND pin of the ESP32 to the GND pin of the blue module.
+That little [blue module](https://www.aliexpress.com/item/32806774850.html) can take any voltage from 7V to 12V and output 5V (and more than enough mA for the ESP32 and two encoders). so you can use it to power the DSC by connecting the "VIN" pin from the ESP32 and the red "5V" cable from the screw shield to the "5V OUT" pins of the blue module, and also the black GND cable from the screw shield plus the GND pin of the ESP32 to the GND pin of the blue module.
 
 It's not actually efficient because to drop the voltage to 5V, some energy must be wasted into heat, but it can be convenient, specially if you don't already own an USB power bank.
