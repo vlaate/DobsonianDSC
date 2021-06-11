@@ -144,7 +144,7 @@ What you need to do is point the telescope at a known star, and center the star 
 
 SkySafari now also lets you perform a second alignment with another star (hopefully one that's far away from the first star). This is called 2-star alignment, and it reduces the need to level the telescope mount base, and improves accuracy.
 
-To do this, just repeat the alignment process with a second star, choosing *"Align"* rather than *"Restart Alignment"* when asked by SkySafari. Doing this second star alignment will allow SkySafari to have a better model of the mount and moer accurately display where your telescope is pointed at.
+To do this, just repeat the alignment process with a second star, choosing *"Align"* rather than *"Restart Alignment"* when asked by SkySafari. Doing this second star alignment will allow SkySafari to have a better model of the mount and more accurately display where your telescope is pointed at.
 
 **Note:** Although it seems that you can align on more stars, SkySafari only remembers the two most recent alignments.
 
