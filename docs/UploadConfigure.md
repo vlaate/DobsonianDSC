@@ -126,7 +126,7 @@ You should select either *"Connect via Bluetooth"* or *"Connect via WiFi"*.
 
 If you select Bluetooth, make sure that Bluetooth is activated in your Smartphone/Tablet and that you have previously paired it with your DSC.
 
-If you select WiFi, SkySafari will ask you to provide the IP address of the DSC, which is *192.168.4.1* if you are using the DSC's internal WiFi, or is a dynamic IP address if you are using a home/existing WiFi network.  Note that the *Port Numbe*r should always be 4030.
+If you select WiFi, SkySafari will ask you to provide the IP address of the DSC, which is *192.168.4.1* if you are using the DSC's internal WiFi, or is a dynamic IP address if you are using a home/existing WiFi network.  Note that the *Port Number* should always be 4030.
 
 Finally, you can close the Settings menu and in SkySafari's main screen select "Scope" and "Connect". After a second or two, you should hear a "ding" sound, indicating that SkySafari has succesffully connected to the telescope.
 
