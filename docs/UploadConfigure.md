@@ -140,7 +140,7 @@ It's often recommended that you first use a bubble level to properly level the b
 
 Once SkySafari successfully connects to your DSC, it will initially assume that the telescope is pointing due north. You need to do the *Star Alignment* in order to get the DSC and SkySafari to properly display where your telescope is aimed at.
 
-What you need to do is point the telescope at a known star, center the star in the field of view of the eyepiece, and tap *"Align"*. Now the SkySafari screen should be showing where your telescope is aimed at, as you move it.
+What you need to do is point the telescope at a known star, and center the star in the field of view of the eyepiece. In Skysafari, search and select the same star, and tap *"Align"*. Now the SkySafari screen should be showing where your telescope is aimed at, as you move it.
 
 SkySafari now also lets you perform a second alignment with another star (hopefully one that's far away from the first star). This is called 2-star alignment, and it reduces the need to level the telescope mount base, and improves accuracy.
 
