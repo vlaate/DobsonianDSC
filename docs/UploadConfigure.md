@@ -51,7 +51,7 @@ In order to change the configuration of the DSC, you need to edit the appropriat
 
 ### Encoders and Resolutions
 
-The fields called *"Azimuth Steps"* and *"Altitude Steps"* can be used to let the DSC know the resolution of it's encoders, so that it can provide such information to apps like [SkySafari](https://skysafariastronomy.com/). This is quite convenient but optional, since you can also manually configure the resolution information directly in the apps.
+The fields called *"Azimuth Steps"* and *"Altitude Steps"* can be used to let the DSC know the resolution of it's axis (calculated from encoder resolution and gear ratio), so that it can provide such information to apps like [SkySafari](https://skysafariastronomy.com/). This is quite convenient but optional, since you can also manually configure the resolution information directly in the apps.
 
 **Flip Azimuth**: Sometimes it happens that after building the DSC electronic circuit and installing the encoders in your telescope, you find out that moving the telescope clockwise in azimuth shows up in skysafari as movement in the opposite direction. To reverse the direction of the Azimuth encoders you could swap the connections of the A and B cables from the Azimuth encoder, but to avoid having to make changes to the hardware, you can just check this *"Flip Azimuth"* option to reverse the direction of the Azimuth encoder if you need to.
 
