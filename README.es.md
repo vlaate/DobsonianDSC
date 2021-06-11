@@ -31,7 +31,7 @@ Así se ve cuando está instalado en un pequeño dobsoniano de sobremesa:
   * Si tiene problemas o comentarios, puede escribirnos en el foro de [CloudyNights](https://www.cloudynights.com/topic/589521-37-dobsonian-dsc-for-diy-makers/).
   * [Aquí](https://www.cloudynights.com/topic/772803-how-to-attach-altitude-encoders-to-dobsonians/) puede encontrar información útil sobre cómo montar mecánicamente encoders en algunos tipos de dobsonianos.
 
-## Fotos:
+## Fotos
 
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/full_close.jpg "Close up AZ")
 ![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/Alt_encoder_1.jpg "Alt Encoder 1")
