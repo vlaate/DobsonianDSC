@@ -206,8 +206,4 @@ You should see a reply from the microcontroller containing whatever text you sen
 
 You can type and send more messages, and the ESP32 should reply. This is evidence that the ESP32 board and the USB connection are working properly.
 
-And that's it! If you got this far and things worked as described in the steps, then you've successfully set up your computer to program an ESP32 microcontroller, and you're ready for the next guide.
-
-
-
-
+And that's it! If you got this far and things worked as described in the steps, then you've successfully set up your computer to program an ESP32 microcontroller, and you're ready for the [next guide](https://github.com/vlaate/DobsonianDSC/blob/master/docs/UploadConfigure.md).
