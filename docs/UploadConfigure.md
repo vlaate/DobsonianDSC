@@ -26,7 +26,8 @@ Double click on the file to open it. The Arduino IDE should launch, making the c
 
 Plug your USB cable to your ESP32 microcontroller, and plug the other end to your computer. Make sure that your Arduino IDE is still properly configured, as was indicated in the [Arduino IDE Guide](https://github.com/vlaate/DobsonianDSC/blob/master/docs/ArduinoIDE.md#9-connect-the-microcontroller). 
 
-In the Arduino IDE main menu, click "Sketch" -> "Upload", and wait for the compilation and upload process to complete. It will take a while.
+Follow the steps indicated in [step 13 of the Arduino guide](https://github.com/vlaate/DobsonianDSC/blob/master/docs/ArduinoIDE.md#13-uploading-the-sketch) to upload the code to the ESP32 board. It will take a while.
+
 
 To validate that the upload was correct, you need to use a WiFi device (laptop, tablet or smartphone) to check the list of WiFi networks around you.
 
@@ -46,7 +47,7 @@ You should see the Web Configuration page:
 
 ## Configuring the DSC
 
-In order to change the configuration of the DSC, you need to edit the appropriate fields in the web configuration page, and hit the "Save" button. They will only take effect if you also hit the "Restart" button, which will reboot the ESP-32.
+In order to change the configuration of the DSC, you need to edit the appropriate fields in the web configuration page, and hit the "Save" button. To have them take effect immediately, hit the "Restart" button, which will reboot the ESP-32.
 
 ### Encoders and Resolutions
 
