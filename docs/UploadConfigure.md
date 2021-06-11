@@ -112,7 +112,7 @@ The DSC is meant to be used with astronomy apps that support the "Basic Encoding
 
 First, you need to make sure that your DSC is powered on and that you can connect to it's web configuration page.
 
-In SkySafari, tap on the *"Settings"* icon and look for a section called *"Telescope"*. This containsan item called *"Setup"*:
+In SkySafari, tap on the *"Settings"* icon and look for a section called *"Telescope"*. This contains an item called *"Setup"*:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/Skysafari_3.png "SkySafari B")
 
