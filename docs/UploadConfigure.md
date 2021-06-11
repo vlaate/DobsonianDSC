@@ -47,11 +47,11 @@ You should see the Web Configuration page:
 
 ## Configuring the DSC
 
-In order to change the configuration of the DSC, you need to edit the appropriate fields in the web configuration page, and hit the "Save" button. To have them take effect immediately, hit the "Restart" button, which will reboot the ESP-32.
+In order to change the configuration of the DSC, you need to edit the appropriate fields in the web configuration page, and hit the "Save" button which will store them in permanent memory. For any changes to take effect immediately, you need to hit the "Restart" button, which will reboot the ESP-32.
 
 ### Encoders and Resolutions
 
-The fields called *"Azimuth Steps"* and *"Altitude Steps"* can be used to let the DSC know the resolution of it's DSC's encoders, so that it can provide such information to apps like [SkySafari](https://skysafariastronomy.com/). This is quite convenient but optional, since you can also manually configure the resolution information directly in the apps.
+The fields called *"Azimuth Steps"* and *"Altitude Steps"* can be used to let the DSC know the resolution of it's encoders, so that it can provide such information to apps like [SkySafari](https://skysafariastronomy.com/). This is quite convenient but optional, since you can also manually configure the resolution information directly in the apps.
 
 **Flip Azimuth**: Sometimes it happens that after building the DSC electronic circuit and installing the encoders in your telescope, you find out that moving the telescope clockwise in azimuth shows up in skysafari as movement in the opposite direction. To reverse the direction of the Azimuth encoders you could swap the connections of the A and B cables from the Azimuth encoder, but to avoid having to make changes to the hardware, you can just check this *"Flip Azimuth"* option to reverse the direction of the Azimuth encoder if you need to.
 
@@ -63,7 +63,7 @@ The field called *"Bluetooth device Name"* lets you select the name your DSC wil
 
 After you give your DSC a Bluetooth name, click the *"Save"* button, and later the *"Restart"* button. It may take a while, but you should be able to pair your smartphone or tablet device with it.
 
-**Note for Android users:** One thing that can be confusing about bluetooth on Android is that after pairing a device, a "connect" button can appear in the bluetooth menu but using it does not seem to do anything. It turns out that the Bluetooth connection needs to be requested by an App (such as Skysafari), and just clicking on "connect" will do nothing unless there is an app requesting bluetooth services. So, after pairing the DSC via bluetooth, to test it with an android device you should use Skysafari or a similar app.
+**Note for Android users:** One thing that can be confusing about bluetooth on Android is that after pairing a device, a "connect" button might appear in the bluetooth menu but using it does not seem to do anything. It turns out that the Bluetooth connection needs to be requested by an App (such as Skysafari), and just clicking on "connect" will do nothing unless there is an app requesting bluetooth services. So, after pairing the DSC via bluetooth, to test it with an android device you should use Skysafari or a similar app.
 
 **Note for iOS users:** It is known that SkySafari on many iOS devices cannot connect to serial devices via Bluetooth. For those phones/tablets the only option is to use WiFi.
 
@@ -82,7 +82,7 @@ When there are stored values for WiFi name and password, the DSC will attept to 
 One caveat of having your telescope DSC connect to a home network or other existing WiFi, is that the home's router will assign it a dynamic IP address, and you need a way to figure out this IP address so that you can connect to the DSC.
 
 To make it simple, the DSC software has an optional feature: After it successfully connects to a WiFi that has Internet access, it can send a notification to your smartphone telling you which IP address it was given.
-This optional feature depends on an app called PushOver which is available for both Andoid and iOS. It's not free but it's inexpensive (and there's a 30 day trial) 
+This optional feature depends on an app called PushOver which is available for both Andoid and iOS. It's not free but it's inexpensive (and there's a 30 day trial).
 
 If you want to use this feature, you'll need to install the PushOver app, create a PushOver account, and login to https://pushover.net/ to do the following steps:
 
@@ -96,13 +96,13 @@ Then in the pushover website, select the option to *"Create an Application/API T
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/pushover_new_app.png "Pushover Create app")
 
-... fill the form (essentially: give the app a name, such as "My Telescope" and click on *"Create Application"*. This will give you a new screen containing an API key for your DSC:
+... fill the form (essentially: give the app a name, such as "My Telescope") and click on *"Create Application"*. This will give you a new screen containing an API key for your DSC:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/pushover_api_key.png "Pushover API key")
 
 Copy that API key, and paste it on the DSC web configuration page, to the field labeled *"Notification API Key"*.
 
-If the values are correct, and the PushOver app is properly setup in your smartphone, then everytime the DSC is powered on and connects to WiFi, it will send you an notification to your mobile telling you it's IP address. You will need to use this IP address to acess the web configuration page, and to connect apps like SkySafari to the DSC.
+If the values are correct, and the PushOver app is properly setup in your smartphone, then everytime the DSC is powered on and connects to an external WiFi, it will send you an notification to your mobile telling you it's IP address. You will need to use it to connect apps like SkySafari to the DSC, and also to acess the web configuration page.
 
 ## Connecting with SkySafari
 
