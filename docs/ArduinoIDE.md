@@ -78,7 +78,7 @@ So, in the top arduino IDE menu select "Tools" -> "Partition Scheme: XX" -> *"Hu
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/8.png "Sketch Too Big")
 
-**Note:** Part of the reason why I recommended you to select the "ESP32 Dev Module" in a previous step was that a few other boards don't allow you to change partition scheme (for example the NoedMCU21-S does not allow it). If you decide to use a different board such as WROOM or a Wemos D1 ESP32, etc, look for Partition Scheme settings called "Huge App" or similar.
+**Note:** Part of the reason why I recommended you to select the "ESP32 Dev Module" in a previous step was that a few other boards don't allow you to change partition scheme (for example the NodeMCU32-S does not allow it). If you decide to use a different board such as WROOM or a Wemos D1 ESP32, etc, look for Partition Scheme settings called "Huge App" or similar.
 
 ### 9. Connect the Microcontroller
 
@@ -179,11 +179,12 @@ When you do this, the bottom part of the IDE (black background with orange text)
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/13.png "Uploaded")
 
-When this is complete, the little green bar will contain the message "Done uploading." as seen on the screenshot.
+If instead of the above messages you see the message: *"Connecting.....------...."* followed by **"Failed to connect to ESP32: Timed out waiting for packet header"**, this is solved by trying again (click "Sketch" -> "Upload") and as soon as you see the *"Connecting..."* message, hold down the physical button labeled "BOOT/FLASH" on the ESP32 board for a few seconds.
+
+The indicator that the upload has completed successfully, is that the little green bar will contain the message "Done uploading." as seen on the above screenshot.
 
 If you get this message then all is well: the program has been compiled and uploaded to your ESP microcontroller. In fact, it's proably already being executed in the device.
 
-If instead of *"Done uploading"* you see the message: "Connecting.....------...."* followed by *"Failed to connect to ESP32: Timed out waiting for packet header"*, this is solved by trying again (Click "Sketch" -> "Upload") and as soon as you see the *"Connecting"* message, hold down the physical button labeled "BOOT/FLASH" on the ESP32 bboar for a few seconds.
 
 ### 14. Validating the ESP32 microcontroller works
 
