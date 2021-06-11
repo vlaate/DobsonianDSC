@@ -171,6 +171,8 @@ void loop()
 
 Now select "File" -> "Save" and proceed to save the sketch somewhere in your computer.
 
+### 13. Uploading the Sketch
+
 Next step is to "upload" the sketch to the ESP32 microcontroller via the USB vable. To do this, you can either select "Sketch" -> "Upload" or click on the round icon with an arrow pointing right:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/DobsonianDSC/master/img/12.png "Upload")
