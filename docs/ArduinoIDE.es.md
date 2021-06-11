@@ -5,7 +5,7 @@
 
 El propósito de esta guía es ayudar a astrónomos aficionados que quieran construir el [proyecto de Apuntador Digital para Telescopio](https://github.com/vlaate/DobsonianDSC), pero que nunca hayan tenido experiencia previa con Arduino ni microcontroladores.
 
-Como tal, esta guía es para novatos y ofrece instrucciones paso a paso desde cómo instalar y configurar el IDE de Arduino en su computadora, hasta cómo conectar su microcontrolador, cargarle un programa y verificar que funcione correctamente.
+Como tal, ésta guía es para novatos y ofrece instrucciones paso a paso desde cómo instalar y configurar el IDE de Arduino en su computadora, hasta cómo conectar su microcontrolador, cargarle un programa y verificar que funcione correctamente.
 
 ### 1. Descargar el Entorno de Desarrollo Arduino
 
