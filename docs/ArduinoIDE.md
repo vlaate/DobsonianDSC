@@ -1,4 +1,6 @@
 # Arduino IDE Beginners Guide
+[[English]](https://github.com/vlaate/DobsonianDSC/blob/master/docs/ArduinoIDE.md)
+[[Español]](https://github.com/vlaate/DobsonianDSC/blob/master/docs/ArduinoIDE.es.md)
 
 The purpose of this guide is to help someone who wants to build the [Telescope DSC project](https://github.com/vlaate/DobsonianDSC), but who has never had any experience with Arduino, microcontrollers, or anything similar. As such, this guide is for the absolute beginner, and 
 it will provide step by step instructions on how to install and configure the Arduino IDE on your computer, connect your microcontroller, and validate that things are working as intended. 
