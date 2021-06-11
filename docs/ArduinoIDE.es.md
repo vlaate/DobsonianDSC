@@ -1,4 +1,4 @@
-# Guía de Arduino para principiantes
+# Guía de Arduino para Principiantes
 [[English]](https://github.com/vlaate/DobsonianDSC/blob/master/docs/ArduinoIDE.md)
 [[Español]](https://github.com/vlaate/DobsonianDSC/blob/master/docs/ArduinoIDE.es.md)
 
