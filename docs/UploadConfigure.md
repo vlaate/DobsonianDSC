@@ -69,7 +69,7 @@ After you give your DSC a Bluetooth name, click the *"Save"* button, and later t
 
 ### Configuring an External WiFi
 
-When connecting to the DSC via WiFi, we often want to keep having access to the internet in the tablet/smartphone used to connect to it. One way to do this is to make your DSC connect to your existing WiFi (your home's network, or a tethering HotSpot that your Smartphone opens when on the field).
+When connecting to the DSC via WiFi, we often want to keep having access to the internet in the tablet/smartphone used to connect to it. One way to do this is to make your DSC connect to your existing WiFi, which could be your home's network, or a tethering HotSpot that you open with your smartphone when outside.
 
 If you fill out the fields labeled *"WiFi SSID Name"* and *"WiFi Password"* and click "Save", where's what will happen:
 
@@ -81,7 +81,7 @@ When there are stored values for WiFi name and password, the DSC will attept to 
 
 One caveat of having your telescope DSC connect to a home network or other existing WiFi, is that the home's router will assign it a dynamic IP address, and you need a way to figure out this IP address so that you can connect to the DSC.
 
-To make it simple, the DSC software has an optional feature: After it successfully connects to a WiFi that has Internet access, it can send a notification to your smartphone telling you which IP address it was given.
+To help with that, this DSC software has an optional feature: After it successfully connects to a WiFi that has Internet access, it can send a notification to your smartphone telling you which IP address it was given.
 This optional feature depends on an app called PushOver which is available for both Andoid and iOS. It's not free but it's inexpensive (and there's a 30 day trial).
 
 If you want to use this feature, you'll need to install the PushOver app, create a PushOver account, and login to https://pushover.net/ to do the following steps:
@@ -102,11 +102,11 @@ Then in the pushover website, select the option to *"Create an Application/API T
 
 Copy that API key, and paste it on the DSC web configuration page, to the field labeled *"Notification API Key"*.
 
-If the values are correct, and the PushOver app is properly setup in your smartphone, then everytime the DSC is powered on and connects to an external WiFi, it will send you an notification to your mobile telling you it's IP address. You will need to use it to connect apps like SkySafari to the DSC, and also to acess the web configuration page.
+If the values are correct, and the PushOver app is properly setup in your smartphone, then everytime the DSC is powered on and connects to an external WiFi, it will send you an notification to your mobile telling you it's IP address, which you will need to use to connect apps like SkySafari to the DSC, and also to acess the web configuration page.
 
 ## Connecting with SkySafari
 
-The DSC is meant to be used with astronomy apps that support the "Basic Encoding System" protocol (a.k.a BBox/Sky Wizard / Intelliscope protocol). This guide will assume you are using [SkySafari](https://skysafariastronomy.com/).
+The DSC is meant to be used with astronomy apps that support the "Basic Encoding System" protocol (a.k.a Intelliscope/BBox/Sky Wizard protocol). This guide will assume you are using [SkySafari](https://skysafariastronomy.com/).
 
 **Note**: only Skysafari Plus and SkySafari Pro support connecting to telescopes, the vanilla "non Plus/Pro" version does not.
 
@@ -140,9 +140,9 @@ It's often recommended that you first use a bubble level to properly level the b
 
 Once SkySafari successfully connects to your DSC, it will initially assume that the telescope is pointing due north. You need to do the *Star Alignment* in order to get the DSC and SkySafari to properly display where your telescope is aimed at.
 
-What yo uneed to do is point the telescope at a known star, center the star in the field of view of the eyepiece, and tap *"Align"*.
+What you need to do is point the telescope at a known star, center the star in the field of view of the eyepiece, and tap *"Align"*. Now the SkySafari screen should be showing where your telescope is aimed at, as you move it.
 
-SkySafari now also lets you perform a second alignment with another star (hopefully one that's far away from the first star). This is called 2-star alignment, and it reduces the need to level the telescope mount base.
+SkySafari now also lets you perform a second alignment with another star (hopefully one that's far away from the first star). This is called 2-star alignment, and it reduces the need to level the telescope mount base, and improves accuracy.
 
 To do this, just repeat the alignment process with a second star, choosing *"Align"* rather than *"Restart Alignment"* when asked by SkySafari. Doing this second star alignment will allow SkySafari to have a better model of the mount and moer accurately display where your telescope is pointed at.
 
