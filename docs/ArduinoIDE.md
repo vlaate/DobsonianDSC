@@ -181,7 +181,9 @@ When you do this, the bottom part of the IDE (black background with orange text)
 
 When this is complete, the little green bar will contain the message "Done uploading." as seen on the screenshot.
 
-If you get this message then all is well: the program has been compiled and uploaded to your ESP microcontroller. In fact, it's proably already being executed in the device. 
+If you get this message then all is well: the program has been compiled and uploaded to your ESP microcontroller. In fact, it's proably already being executed in the device.
+
+If instead of *"Done uploading"* you see the message: "Connecting.....------...."* followed by *"Failed to connect to ESP32: Timed out waiting for packet header"*, this is solved by trying again (Click "Sketch" -> "Upload") and as soon as you see the *"Connecting"* message, hold down the physical button labeled "BOOT/FLASH" on the ESP32 bboar for a few seconds.
 
 ### 14. Validating the ESP32 microcontroller works
 
