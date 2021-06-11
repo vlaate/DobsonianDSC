@@ -1,4 +1,4 @@
-# Construyendo el circuito del Apuntador Digital
+# Construyendo el Circuito del Apuntador Digital
 [[English]](https://github.com/vlaate/DobsonianDSC/blob/master/docs/Solderless.md)
 [[Español]](https://github.com/vlaate/DobsonianDSC/blob/master/docs/Solderless.es.md)
 
