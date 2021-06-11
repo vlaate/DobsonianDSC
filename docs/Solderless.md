@@ -60,6 +60,10 @@ For encoders attached *directly* to the telescope axis (without any gear reducti
 
 For encoders connected to the telescope via some sort of gear reduction (such as GT2 gears and belt) the cheaper **600 p/r** encoders are sufficient, and for example attached through GT2 gears at a 4,25 gear ratio (85 teeth big gear to 20 teeth small gear) they will provide (600 * 4 * 4,25 = 10.200) 10.200 steps per full circle, or 2.1 arcminutes per step.
 
+Example with GT2 pulleys:
+
+![alt text](https://github.com/vlaate/DobsonianDSC/blob/master/img/full_close.jpg "Close up AZ")
+
 In order to make this circuit as simple as possible, the optical encoders to be used **must** have **"NPN open-collector outputs"**. Encoders with other type of outputs (for example: *"Line Driver output"*) are not suited for this simple circuit and will require additional hardware such as level shifters.
 
 The most common encoder useable for this DSC project is the *Signswise / BQLZR* 600 p/r and it's generic clones. It's recommended to look for the mention of *"NPN open-collector"* in the vendor's page when dealing with generic ones. ([aliexpress](https://www.aliexpress.com/item/32669741048.html)). 
