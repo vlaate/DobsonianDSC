@@ -101,7 +101,7 @@ You will see a list of serial ports (COM1, COM5, etc). You are supposed to choos
 
 **¿How do I know which COM port is the one assigned to my USB-connected microcontroller?**
 
-A simple way is: With the USB cable is still connected, take note of all the names on the ports list. Then click with your mouse somewhere else on the IDE so that the menu (and the list of com ports) is no longer visible. Then Unplug the USB cable. Then select "Tools" -> "Port: XX" again to view the list. Whichever name dissappeared from the list after unplugging the USB cable, that's the COM port that corresponds to your ESP32 microcontroller.
+A simple way is: While the USB cable is still connected, take note of all the names on the ports list. Then click with your mouse somewhere else on the IDE so that the menu (and the list of com ports) is no longer visible. Then Unplug the USB cable. Then select "Tools" -> "Port: XX" again to view the list. Whichever name dissappeared from the list after unplugging the USB cable, that's the COM port that corresponds to your ESP32 microcontroller.
 
 ### 11. Validate USB Connection
 
