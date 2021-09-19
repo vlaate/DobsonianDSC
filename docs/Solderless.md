@@ -14,7 +14,7 @@ There are very few components involved in this dual encoder DSC:
 
   * Two optical encoders with NPN open-collector outputs (discussed in more detail further below).
   * One "30 pin" ESP32 development board ([aliexpress](https://www.aliexpress.com/item/32800930387.html), [amazon](https://www.amazon.com/dp/B079PVCF2G)).
-  * One keyes screw shield v2 ([keyestudio.com](https://www.keyestudio.com/products/keyes-screw-shield-v2-stud-terminal-expansion-board-double-support), [aliexpress](https://www.aliexpress.com/item/2030646961.html)).
+  * One keyes screw shield v2 ([keyestudio.com](https://www.keyestudio.com/), [aliexpress](https://www.aliexpress.com/item/2030646961.html)).
   * A set of 10 Dupont Cables 10cm long, either male-to-female or female-to-female ([aliexpress](https://www.aliexpress.com/item/32798042976.html)).
 
 Before you go on assembling the circuit, make sure you have already uploaded the software to the ESP-32.
